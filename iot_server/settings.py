@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-#297jgh**cr20yq=cuoa+acf@^c_2(*@q(5p29_b8&!86kl#*=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "iot-hit-test.onrender.com",
+    "localhost"
+]
 
 
 # Application definition
